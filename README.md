@@ -1,5 +1,5 @@
 Homework list
-- [x] exercise 01 creat a GitHub account and set up a repository
+- [x] exercise 01 :creat a GitHub account and set up a repository
 - [ ] exercise 02
 - [ ] exercise 03
 - [ ] exercise 04
