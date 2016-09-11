@@ -1,1 +1,16 @@
-# computationalphysics_N2014301020065
+Homework list
+- [x] exercise 01 creat a GitHub account and set up a repository
+- [ ] exercise 02
+- [ ] exercise 03
+- [ ] exercise 04
+- [ ] exercise 05
+- [ ] exercise 06
+- [ ] exercise 07
+- [ ] exercise 08
+- [ ] exercise 09
+- [ ] exercise 10
+- [ ] exercise 11
+- [ ] exercise 12
+- [ ] exercise 13
+- [ ] exercise 14
+- [ ] exercise 15
