@@ -18,7 +18,7 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 ***3. Homework list***
 
 - [x] exercise 01 :creat a GitHub account and set up a repository
-- [ ] exercise 02
+- [X] exercise 02 :Write a program to type my English name in python.
 - [ ] exercise 03
 - [ ] exercise 04
 - [ ] exercise 05
