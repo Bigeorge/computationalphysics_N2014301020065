@@ -18,8 +18,8 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 ***3. Homework list***
 
 - [x] exercise 01 :Creat a GitHub account and set up a repository
-- [X] exercise 02 :[Write a program to type my English name in python.](https://www.zybuluo.com/bigeorge/note/504461)
-- [ ] exercise 03 :[Draw move and circumgyrate](https://www.zybuluo.com/bigeorge/note/513290)
+- [x] exercise 02 :[Write a program to type my English name in python.](https://www.zybuluo.com/bigeorge/note/504461)
+- [x] exercise 03 :[Draw move and circumgyrate](https://www.zybuluo.com/bigeorge/note/513290)
 - [ ] exercise 04
 - [ ] exercise 05
 - [ ] exercise 06
