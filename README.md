@@ -20,8 +20,8 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 01 :Creat a GitHub account and set up a repository
 - [x] exercise 02 :[Write a program to type my English name in python.](https://www.zybuluo.com/bigeorge/note/504461)
 - [x] exercise 03 :[Draw move and circumgyrate](https://www.zybuluo.com/bigeorge/note/513290)
-- [ ] exercise 04 :[Numerical Problem with matplotlib](https://www.zybuluo.com/bigeorge/note/526011)
-- [ ] exercise 05
+- [x] exercise 04 :[Numerical Problem with matplotlib](https://www.zybuluo.com/bigeorge/note/526011)
+- [x] exercise 05 :[Cannon shell trajector yproblem by euler method](https://www.zybuluo.com/bigeorge/note/534093)
 - [ ] exercise 06
 - [ ] exercise 07
 - [ ] exercise 08
