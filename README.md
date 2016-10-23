@@ -22,7 +22,7 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 03 :[Draw move and circumgyrate](https://www.zybuluo.com/bigeorge/note/513290)
 - [x] exercise 04 :[Numerical Problem with matplotlib](https://www.zybuluo.com/bigeorge/note/526011)
 - [x] exercise 05 :[Cannon shell trajectory problem by euler method](https://www.zybuluo.com/bigeorge/note/534093)
-- [ ] exercise 06
+- [x] exercise 06 :[2.10](https://www.zybuluo.com/bigeorge/note/542385)
 - [ ] exercise 07
 - [ ] exercise 08
 - [ ] exercise 09
