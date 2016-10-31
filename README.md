@@ -1,4 +1,4 @@
-***1. My information***
+x***1. My information***
  
  - Name: 熊毅恒
  - Student ID: 2014301020065
@@ -23,7 +23,7 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 04 :[Numerical Problem with matplotlib](https://www.zybuluo.com/bigeorge/note/526011)
 - [x] exercise 05 :[Cannon shell trajectory problem by euler method](https://www.zybuluo.com/bigeorge/note/534093)
 - [x] exercise 06 :[2.10](https://www.zybuluo.com/bigeorge/note/542385)
-- [ ] exercise 07
+- [x] exercise 07 :[Oscillatory and Motion and Chaos](https://www.zybuluo.com/bigeorge/note/550592)
 - [ ] exercise 08
 - [ ] exercise 09
 - [ ] exercise 10
