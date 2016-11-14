@@ -24,7 +24,7 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 05 :[Cannon shell trajectory problem by euler method](https://www.zybuluo.com/bigeorge/note/534093)
 - [x] exercise 06 :[2.10](https://www.zybuluo.com/bigeorge/note/542385)
 - [x] exercise 07 :[Oscillatory and Motion and Chaos](https://www.zybuluo.com/bigeorge/note/550592)
-- [ ] exercise 08
+- [x] exercise 08 :[Poincare section and bifurcation diagram](https://www.zybuluo.com/bigeorge/note/563449)
 - [ ] exercise 09
 - [ ] exercise 10
 - [ ] exercise 11
