@@ -38,13 +38,76 @@ And for the pioncare section, we chose the time that :
 problem 3.18 : 
 Calculate Piuncare sections for the pendulum as it undergose the period-doubling route to chaos. Plot ω versus θ, with one point plotted for each drive cycle, as in Figure 3.9. Do this for F_D=1.4, 1.44, and 1.465, using the other parameters as fiven in connection with Figure 3.10. You should find that after removing the points corresponding to the initial transient the attractor in the period-1 regime will contain only a single point. Likewise, if the behavior is period n, the attractor will contain n discrete points.
 
-code [click here]()
-result  ![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+code
+```python
+import pylab as pl
+import math
+class oscillatory:
+    def __init__(self,g=9.8,l=9.8,q=0.5,F_D=1.465,O_D=2/3,time_step=3*math.pi/100,\
+    total_time=100,initial_theta=0.2,initial_omega=0):
+        self.g=g
+        self.l=l
+        self.q=q
+        self.F=F_D
+        self.O=O_D
+        self.t=[0]
+        self.initial_theta=initial_theta
+        self.initial_omega=initial_omega
+        self.dt=time_step
+        self.time= total_time
+        self.omega= [initial_omega]
+        self.theta= [initial_theta]
+        self.nsteps=int(total_time//time_step+1)
+        self.tmpo=[0]
+        self.tmpt=[0]
+    def run(self):
+        for i in range(self.nsteps):
+            tmpo=self.omega[i]+(-1*(self.g/self.l)*math.sin(self.theta[i])-\
+            self.q*self.omega[i]+self.F*math.sin(self.O*self.t[i]))*self.dt
+            tmpt=self.theta[i]+tmpo*self.dt
+            while(tmpt<(-1*math.pi) or tmpt>math.pi):
+                if tmpt<(-1*math.pi):
+                   tmpt+=2*math.pi
+                if tmpt>math.pi:
+                   tmpt-=2*math.pi
+            self.omega.append(tmpo)
+            self.theta.append(tmpt)
+            self.t.append(self.t[i]+self.dt)
+        for i in range(len(self.t)):
+            if self.t[i]//(3*math.pi)>300:
+                if ((2/3*self.t[i])%(2*math.pi))<=(2/3*self.dt*0.5)\
+                or (2*math.pi-((2/3*self.t[i])%(2*math.pi)))<=(2/3*self.dt*0.5):
+                    self.tmpo.append(self.omega[i])
+                    self.tmpt.append(self.theta[i])   
+    def show_results(self):
+        font = {'family': 'serif',
+                'color':  'darkred',
+                'weight': 'normal',
+                'size': 16,}
+        pl.plot(self.t,self.theta)
+        #pl.scatter(self.tmpt, self.tmpo)
+        pl.title(r'$\theta$ versus t', fontdict = font)
+        pl.xlabel(r't(s)')
+        pl.ylabel(r'$\theta$(radian)')
+        pl.xlim(0,100)
+        pl.ylim(-4,4)
+        pl.legend((['$F_D$=1.465']))
+        pl.show()
+a = oscillatory()
+a.run()
+a.show_results()
+```
+result  ![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-8107c7dbd7e13c5e1.png)
+![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-a6900c3d45449f922.png)
+![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-a2c501b08be4e7ed3.png)
+![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-ee330c86be975bf64.png)
+![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-78b897a6b68c99e95.png)
+![](https://github.com/Bigeorge/computationalphysics_N2014301020065/blob/master/3667351-2929b19918d7a6706.png)
 
-##感谢
-熊沛雨、仲逸飞、谭善
+##conlusion
+We cannot easily use Euler method to solve the oscillatory motion, but we can use Euler-Cromer method. When we take many factors into consideration, the oscillatory motion will be chaos from the figure we can see. From solving the problem about oscillatory motion, we have a better known about chaos. Also, with the help of computer and Euler-Cromer method we can solve the qusetion of pendulum easily. To have a better understand of the chaos, to do work on the period doubling with the bifuraction is very usefull. Also we can have a better understan 
+of the chaos from the routes of chaos
+
+##acknowledgement
+The Lesson plan Chapter 3 of Cai Hao
+xiongpeiyu
