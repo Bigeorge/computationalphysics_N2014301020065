@@ -11,10 +11,10 @@ And I will try the bigger Fd to do the work to understand the relationship betwe
 
 We know the Euler-Cromer method. We will take the Euler-Cromer method into the oscillatory motion and chaos calculation: 
 Newton’s second law for ideal pendulum with small angle: 
-\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta
+$$\frac{d^2\theta}{dt^2}=-\frac{g}{l}\theta$$
 Write the second-order equations as two firest-order differential equations: 
-\frac{d\omega}{dt}=-\frac{g}{l}\theta
-\frac{d\theta}{dt}=\omega
+$$\frac{d\omega}{dt}=-\frac{g}{l}\theta$$
+$$\frac{d\theta}{dt}=\omega$$
 
 Finite difference form with Euler-Cromer method: 
 \omega_{i+1}=\omega_i-(g/l)\theta_i\Delta t
