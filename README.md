@@ -25,8 +25,8 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 06 :[2.10](https://www.zybuluo.com/bigeorge/note/542385)
 - [x] exercise 07 :[Oscillatory and Motion and Chaos](https://www.zybuluo.com/bigeorge/note/550592)
 - [x] exercise 08 :[Poincare section and bifurcation diagram](https://www.zybuluo.com/bigeorge/note/563449)
-- [X] exercise 09 :[The Billiard Problem](http://www.jianshu.com/p/396f3210261e)
-- [ ] exercise 10
+- [x] exercise 09 :[The Billiard Problem](http://www.jianshu.com/p/396f3210261e)
+- [x] exercise 10 :[Precession of the Perihelion of Mercury (4.10&4.11)](https://www.zybuluo.com/bigeorge/note/581815)
 - [ ] exercise 11
 - [ ] exercise 12
 - [ ] exercise 13
