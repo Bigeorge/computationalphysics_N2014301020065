@@ -28,7 +28,7 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 09 :[The Billiard Problem](http://www.jianshu.com/p/396f3210261e)
 - [x] exercise 10 :[Precession of the Perihelion of Mercury (4.10&4.11)](https://www.zybuluo.com/bigeorge/note/581815)
 - [x] exercise 11 :[Chaotic tumbling of Hyperion](https://www.zybuluo.com/bigeorge/note/590076)
-- [ ] exercise 12
+- [x] exercise 12 :[Electric Potential and Fields](https://www.zybuluo.com/bigeorge/note/597891)
 - [ ] exercise 13
 - [ ] exercise 14
 - [ ] exercise 15
