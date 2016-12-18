@@ -29,6 +29,6 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 10 :[Precession of the Perihelion of Mercury (4.10&4.11)](https://www.zybuluo.com/bigeorge/note/581815)
 - [x] exercise 11 :[Chaotic tumbling of Hyperion](https://www.zybuluo.com/bigeorge/note/590076)
 - [x] exercise 12 :[Electric Potential and Fields](https://www.zybuluo.com/bigeorge/note/597891)
-- [ ] exercise 13
+- [x] exercise 13 :[Waves~](https://www.zybuluo.com/bigeorge/note/498781)
 - [ ] exercise 14
 - [ ] exercise 15
