@@ -30,5 +30,4 @@ In fact, I am a totally freshman in program.So, I hope I can grasp some basic kn
 - [x] exercise 11 :[Chaotic tumbling of Hyperion](https://www.zybuluo.com/bigeorge/note/590076)
 - [x] exercise 12 :[Electric Potential and Fields](https://www.zybuluo.com/bigeorge/note/597891)
 - [x] exercise 13 :[Waves~](https://www.zybuluo.com/bigeorge/note/498781)
-- [ ] exercise 14
-- [ ] exercise 15
+- [ ] final paper :[Random systems](https://www.zybuluo.com/bigeorge/note/624918)
